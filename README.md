@@ -1,21 +1,45 @@
-# Muledump 2
-Electric Boogaloo
+## Synopsis
 
+This tool allows you to list contents of all your accounts in a single page (characters, their stats and items, items in vaults). Also it generates a summary of all the items - you probably saw screenshots of these in trading forum ([example](http://i755.photobucket.com/albums/xx195/Ind3sisiv3/Ilovemuledump.png)).
 
+The point of playing the game is to have fun. Muling is not fun. I am trying to increase overall fun ratio by decreasing amount of time spent fussing with mules and storagekeeping.
 
-Installation
-===
+## Download
 
-To install this Muledump, firstly download Muledump from [here](https://github.com/killring/muledump), and download Muleproxy from [here](https://github.com/killring/muleproxy). Also, download GoLang from [here](https://golang.org/dl/) if you haven't already.
+All released versions are [here](https://github.com/atomizer/muledump/releases).
+Stdman will release as many new versions as is possible [here](https://github.com/thestdman/muledump/releases). 
 
-To run Muledump on your computer and NOT on a webserver, put your Muledump files into a folder somewhere. Put the contents of Muleproxy in your Muledump directory (IN the folder with `muledump.html`). Then, from the command line, use `go build`. Then do it a second time.. Next, configure your Muledump as normal but do not put your password in `accounts_sample.js`. Remember to ADD YOUR EMAIL to `accounts_sample.js` and rename `accounts_sample.js` to `accounts.js`.
+## Howto
 
-Then, configure Muleproxy. The example_config.json is simple to understand, just put your emails and passwords in there. Be sure to properly escape apostraphes and quotation marks in your passwords and emails by putting \ before them. Rename example_config.json to config.json. There will be an exe file that has the name of the parent folder. Treat that as proxy.exe, rename it if you want. Finally, start Muleproxy with `proxy.exe "config.json` for Windows. Lastly, go to http://localhost:5353/muledump.html in your browser.
+- unpack
+- edit **`accounts_sample.js`**
+- rename it to **`accounts.js`**
+- open **`muledump.html`**
 
-Congratulations, you've finally installed Muledump 2!
+## Howto update your muledump to Stdman's version
 
-If you are not on Windows, please contact articun0z#1434 on Discord.
+- download all files
+- copy **accounts.js** file from old muledump
+- paste it in the new muledump folder
+- voila its really that simple
 
-Issues
-===
-If you have an issue, please contact either articun0z#1434 on Discord, or add an Issue to this repo. **DO NOT** add issues to killring/muleproxy or killring/muledump. They **will not be read.**
+## Not so obvious features
+
+- click on item to filter accounts that hold it
+- click on account name for individual options menu
+- ctrl-click account name to temporarily hide it from totals
+- read the `accounts.js` file, it has some variables to play with
+
+## Head to the [wiki](https://github.com/atomizer/muledump/wiki) for more information!
+
+And of course, feel free to contribute to it!
+
+## License
+
+Copyright (c) 2013 [atomizer](https://github.com/atomizer)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
