@@ -15,3 +15,7 @@ Then, configure Muleproxy. The example_config.json is simple to understand, just
 Congratulations, you've finally installed Muledump 2!
 
 If you are not on Windows, please contact articun0z#1434 on Discord.
+
+Issues
+===
+If you have an issue, please contact either articun0z#1434 on Discord, or add an Issue to this repo. **DO NOT** add issues to killring/muleproxy or killring/muledump. They **will not be read.**
