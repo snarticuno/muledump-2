@@ -1,14 +1,14 @@
 1. Download this repo.
     For simplicity I'm going to assume you're going to put it in 
-    C:\Users\Example\Desktop\muledump-master
+    C:\Users\Example\Desktop\muledump-2-master
 2. Download GoLang from here: https://golang.org/dl/ (also install it ofcourse)
 3. Open your command prompt (Windows key+R, type in cmd.exe and hit enter)
 4. Type in the following:
-    cd "C:\Users\Example\Desktop\muledump-master"
+    cd "C:\Users\Example\Desktop\muledump-2-master"
 5. Type in the following: go build
 6. Type in the following again: go build
     You should now have an executable called 
-    muledump-master.exe.
+    muledump-2-master.exe.
 7. Open accounts_sample.js with a text editor (for instance Notepad++)
 8. for steam users: put in your steamworks UID.
     for browser/flash player users: put in your email address. 
@@ -30,5 +30,5 @@
 
 12. Save the file as config.json. Make sure the file extension is .json instead of .txt
 13. Go back to your command prompt. Type in: 
-muledump-master.exe "config.json"
+muledump-2-master.exe "config.json"
 14. Go to http://localhost:5353/muledump.html and click reload all.
