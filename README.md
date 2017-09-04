@@ -3,7 +3,7 @@
     C:\Users\Example\Desktop\muledump-2-master
 2. Open your command prompt (Windows key+R, type in cmd.exe and hit enter)
 4. Type in the following:
-    cd "C:\Users\Example\Desktop\muledump-2-master"
+    `cd "C:\Users\Example\Desktop\muledump-2-master"`
 5. Open accounts_sample.js with a text editor (for instance Notepad++)
 6. Enter your account info. Steam and Kong do not work as of now.
     It should look something like this: 
