@@ -216,7 +216,7 @@ type Chars struct {
 		Gifts string `xml:"Gifts"`
 		Name  string `xml:"Name"`
 		Stats struct {
-			ClassStats struct {
+			ClassStats []struct {
 				ObjectType string `xml:"objectType,attr"`
 				BestLevel  string `xml:"BestLevel"`
 				BestFame   string `xml:"BestFame"`
