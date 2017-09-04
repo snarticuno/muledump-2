@@ -4,7 +4,7 @@
 2. Open your command prompt (Windows key+R, type in cmd.exe and hit enter)
 4. Type in the following:
     `cd "C:\Users\Example\Desktop\muledump-2-master"`
-5. If you do not want to build your own Go file, skip steps 6 and 7.
+5. If you do not want to build your own Go file, skip steps 5, 6 and 7.
 6. Install Go from [here](https://golang.org/dl/).
 7. Delete muledump-2-master.exe from your Muledump 2 folder, unless you want to keep it for some reason. (muledump-2-master.exe is the built main.go file)
 8. In Command Prompt (you should be in C:\Users\<Your Name>\Desktop\<your Muledump 2 folder name>), type `go build`.
